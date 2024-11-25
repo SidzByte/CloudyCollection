@@ -10,6 +10,7 @@ import Signup from "./component/Signup";
 import { isLogin } from '../src/util/checkAuth'
 
 const router = createBrowserRouter([
+  { path: "", element: <Login /> },
   { path: "login", element: <Login /> },
   { path: "signup", element: <Signup /> },
   {
