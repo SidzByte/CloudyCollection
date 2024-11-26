@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import loader from '../assets/loader.gif';
-import './Login.css'; // Link the CSS file for styles
+import './Login.css'; 
 
 const Login = () => {
   const [userName, setUserName] = useState('');
