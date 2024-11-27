@@ -1,0 +1,77 @@
+/* Main Navigation Container */
+.main-nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(45deg, #6c63ff, #5a5ae0); /* Matches the button gradient */
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    border-radius: 0 0 8px 8px; /* Soft rounded bottom for a modern look */
+  }
+  
+  /* Navigation Links */
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #cce7ff; /* Soft hover effect for the links */
+  }
+  
+  /* User Information */
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .greeting {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+    color: #ffffff;
+  }
+  
+  /* Logout Button */
+  .logout-button {
+    padding: 0.5rem 1rem;
+    background: #ff4d4f; /* Matches error styling from login */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background: #c0392b;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .main-nav {
+      flex-direction: column;
+      gap: 1rem;
+      text-align: center;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+    }
+  }
+  
