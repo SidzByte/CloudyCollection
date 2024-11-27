@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Loader */
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loader img {
+    width: 100px;
+}
+
+/* Category Container */
+.category-container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Category List */
+.category-list {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 800px;
+}
+
+.category-list h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-size: 2rem; /* Make the title larger */
+}
+
+/* Table Styling */
+.category-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 1rem; /* Increase table font size for readability */
+}
+
+.category-table thead {
+    background: linear-gradient(45deg, #6c63ff, #5a5ae0);
+    color: #fff;
+}
+
+.category-table th, .category-table td {
+    padding: 0.8rem;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.category-table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Category Image */
+.category-image {
+    width: 150px; /* Increase the image size for better visibility */
+    height: auto;
+    border-radius: 4px;
+}
+
+/* Buttons */
+.action-btn {
+    padding: 0.5rem 1rem;
+    margin: 0.2rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem; /* Increase button font size */
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.detail-btn {
+    background: #6c63ff;
+    color: white;
+}
+
+.detail-btn:hover {
+    background: #5a5ae0;
+}
+
+.edit-btn {
+    background: #ffc107;
+    color: #333;
+}
+
+.edit-btn:hover {
+    background: #e0a800;
+}
+
+.delete-btn {
+    background: #ff4d4f;
+    color: white;
+}
+
+.delete-btn:hover {
+    background: #d9363e;
+}
+
+/* Error Message */
+.error-message {
+    color: #ff4d4f;
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+}

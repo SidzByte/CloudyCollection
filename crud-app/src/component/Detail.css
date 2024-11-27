@@ -1,0 +1,65 @@
+/* General Layout */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Detail Container */
+  .detail-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Loader */
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .loader img {
+    width: 100px;
+  }
+  
+  /* Category Details */
+  .detail-card {
+    text-align: center;
+  }
+  
+  .detail-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+  }
+  
+  .detail-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Error Message */
+  .error-container {
+    margin-top: 1rem;
+  }
+  
+  .error-message {
+    color: #ff4d4f;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
